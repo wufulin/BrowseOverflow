@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696EA02A17B8B28800497D91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA02917B8B28800497D91 /* UIKit.framework */; };
+		696EA02C17B8B28800497D91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA02B17B8B28800497D91 /* Foundation.framework */; };
+		696EA02E17B8B28800497D91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA02D17B8B28800497D91 /* CoreGraphics.framework */; };
+		696EA03417B8B28800497D91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 696EA03217B8B28800497D91 /* InfoPlist.strings */; };
+		696EA03617B8B28800497D91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA03517B8B28800497D91 /* main.m */; };
+		696EA03A17B8B28800497D91 /* VIPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA03917B8B28800497D91 /* VIPAppDelegate.m */; };
+		696EA03C17B8B28800497D91 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 696EA03B17B8B28800497D91 /* Default.png */; };
+		696EA03E17B8B28800497D91 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696EA03D17B8B28800497D91 /* Default@2x.png */; };
+		696EA04017B8B28800497D91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696EA03F17B8B28800497D91 /* Default-568h@2x.png */; };
+		696EA04317B8B28800497D91 /* VIPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA04217B8B28800497D91 /* VIPMasterViewController.m */; };
+		696EA04617B8B28800497D91 /* VIPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA04517B8B28800497D91 /* VIPDetailViewController.m */; };
+		696EA04917B8B28800497D91 /* VIPMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696EA04717B8B28800497D91 /* VIPMasterViewController.xib */; };
+		696EA04C17B8B28800497D91 /* VIPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696EA04A17B8B28800497D91 /* VIPDetailViewController.xib */; };
+		696EA05417B8B28800497D91 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA05317B8B28800497D91 /* SenTestingKit.framework */; };
+		696EA05517B8B28800497D91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA02917B8B28800497D91 /* UIKit.framework */; };
+		696EA05617B8B28800497D91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA02B17B8B28800497D91 /* Foundation.framework */; };
+		696EA05E17B8B28800497D91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 696EA05C17B8B28800497D91 /* InfoPlist.strings */; };
+		696EA06117B8B28800497D91 /* BrowseOverflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA06017B8B28800497D91 /* BrowseOverflowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		696EA05717B8B28800497D91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 696EA01E17B8B28800497D91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 696EA02517B8B28800497D91;
+			remoteInfo = BrowseOverflow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		696EA02617B8B28800497D91 /* BrowseOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowseOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696EA02917B8B28800497D91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		696EA02B17B8B28800497D91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		696EA02D17B8B28800497D91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		696EA03117B8B28800497D91 /* BrowseOverflow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrowseOverflow-Info.plist"; sourceTree = "<group>"; };
+		696EA03317B8B28800497D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		696EA03517B8B28800497D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		696EA03717B8B28800497D91 /* BrowseOverflow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrowseOverflow-Prefix.pch"; sourceTree = "<group>"; };
+		696EA03817B8B28800497D91 /* VIPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPAppDelegate.h; sourceTree = "<group>"; };
+		696EA03917B8B28800497D91 /* VIPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPAppDelegate.m; sourceTree = "<group>"; };
+		696EA03B17B8B28800497D91 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		696EA03D17B8B28800497D91 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		696EA03F17B8B28800497D91 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		696EA04117B8B28800497D91 /* VIPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPMasterViewController.h; sourceTree = "<group>"; };
+		696EA04217B8B28800497D91 /* VIPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPMasterViewController.m; sourceTree = "<group>"; };
+		696EA04417B8B28800497D91 /* VIPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VIPDetailViewController.h; sourceTree = "<group>"; };
+		696EA04517B8B28800497D91 /* VIPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPDetailViewController.m; sourceTree = "<group>"; };
+		696EA04817B8B28800497D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VIPMasterViewController.xib; sourceTree = "<group>"; };
+		696EA04B17B8B28800497D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VIPDetailViewController.xib; sourceTree = "<group>"; };
+		696EA05217B8B28800497D91 /* BrowseOverflowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowseOverflowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		696EA05317B8B28800497D91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		696EA05B17B8B28800497D91 /* BrowseOverflowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrowseOverflowTests-Info.plist"; sourceTree = "<group>"; };
+		696EA05D17B8B28800497D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		696EA05F17B8B28800497D91 /* BrowseOverflowTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowseOverflowTests.h; sourceTree = "<group>"; };
+		696EA06017B8B28800497D91 /* BrowseOverflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		696EA02317B8B28800497D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696EA02A17B8B28800497D91 /* UIKit.framework in Frameworks */,
+				696EA02C17B8B28800497D91 /* Foundation.framework in Frameworks */,
+				696EA02E17B8B28800497D91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696EA04E17B8B28800497D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696EA05417B8B28800497D91 /* SenTestingKit.framework in Frameworks */,
+				696EA05517B8B28800497D91 /* UIKit.framework in Frameworks */,
+				696EA05617B8B28800497D91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		696EA01D17B8B28800497D91 = {
+			isa = PBXGroup;
+			children = (
+				696EA02F17B8B28800497D91 /* BrowseOverflow */,
+				696EA05917B8B28800497D91 /* BrowseOverflowTests */,
+				696EA02817B8B28800497D91 /* Frameworks */,
+				696EA02717B8B28800497D91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		696EA02717B8B28800497D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				696EA02617B8B28800497D91 /* BrowseOverflow.app */,
+				696EA05217B8B28800497D91 /* BrowseOverflowTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		696EA02817B8B28800497D91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				696EA02917B8B28800497D91 /* UIKit.framework */,
+				696EA02B17B8B28800497D91 /* Foundation.framework */,
+				696EA02D17B8B28800497D91 /* CoreGraphics.framework */,
+				696EA05317B8B28800497D91 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		696EA02F17B8B28800497D91 /* BrowseOverflow */ = {
+			isa = PBXGroup;
+			children = (
+				696EA03817B8B28800497D91 /* VIPAppDelegate.h */,
+				696EA03917B8B28800497D91 /* VIPAppDelegate.m */,
+				696EA04117B8B28800497D91 /* VIPMasterViewController.h */,
+				696EA04217B8B28800497D91 /* VIPMasterViewController.m */,
+				696EA04417B8B28800497D91 /* VIPDetailViewController.h */,
+				696EA04517B8B28800497D91 /* VIPDetailViewController.m */,
+				696EA04717B8B28800497D91 /* VIPMasterViewController.xib */,
+				696EA04A17B8B28800497D91 /* VIPDetailViewController.xib */,
+				696EA03017B8B28800497D91 /* Supporting Files */,
+			);
+			path = BrowseOverflow;
+			sourceTree = "<group>";
+		};
+		696EA03017B8B28800497D91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				696EA03117B8B28800497D91 /* BrowseOverflow-Info.plist */,
+				696EA03217B8B28800497D91 /* InfoPlist.strings */,
+				696EA03517B8B28800497D91 /* main.m */,
+				696EA03717B8B28800497D91 /* BrowseOverflow-Prefix.pch */,
+				696EA03B17B8B28800497D91 /* Default.png */,
+				696EA03D17B8B28800497D91 /* Default@2x.png */,
+				696EA03F17B8B28800497D91 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		696EA05917B8B28800497D91 /* BrowseOverflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				696EA05F17B8B28800497D91 /* BrowseOverflowTests.h */,
+				696EA06017B8B28800497D91 /* BrowseOverflowTests.m */,
+				696EA05A17B8B28800497D91 /* Supporting Files */,
+			);
+			path = BrowseOverflowTests;
+			sourceTree = "<group>";
+		};
+		696EA05A17B8B28800497D91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				696EA05B17B8B28800497D91 /* BrowseOverflowTests-Info.plist */,
+				696EA05C17B8B28800497D91 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		696EA02517B8B28800497D91 /* BrowseOverflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696EA06417B8B28800497D91 /* Build configuration list for PBXNativeTarget "BrowseOverflow" */;
+			buildPhases = (
+				696EA02217B8B28800497D91 /* Sources */,
+				696EA02317B8B28800497D91 /* Frameworks */,
+				696EA02417B8B28800497D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrowseOverflow;
+			productName = BrowseOverflow;
+			productReference = 696EA02617B8B28800497D91 /* BrowseOverflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		696EA05117B8B28800497D91 /* BrowseOverflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 696EA06717B8B28800497D91 /* Build configuration list for PBXNativeTarget "BrowseOverflowTests" */;
+			buildPhases = (
+				696EA04D17B8B28800497D91 /* Sources */,
+				696EA04E17B8B28800497D91 /* Frameworks */,
+				696EA04F17B8B28800497D91 /* Resources */,
+				696EA05017B8B28800497D91 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				696EA05817B8B28800497D91 /* PBXTargetDependency */,
+			);
+			name = BrowseOverflowTests;
+			productName = BrowseOverflowTests;
+			productReference = 696EA05217B8B28800497D91 /* BrowseOverflowTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		696EA01E17B8B28800497D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VIP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = netease;
+			};
+			buildConfigurationList = 696EA02117B8B28800497D91 /* Build configuration list for PBXProject "BrowseOverflow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 696EA01D17B8B28800497D91;
+			productRefGroup = 696EA02717B8B28800497D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				696EA02517B8B28800497D91 /* BrowseOverflow */,
+				696EA05117B8B28800497D91 /* BrowseOverflowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		696EA02417B8B28800497D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696EA03417B8B28800497D91 /* InfoPlist.strings in Resources */,
+				696EA03C17B8B28800497D91 /* Default.png in Resources */,
+				696EA03E17B8B28800497D91 /* Default@2x.png in Resources */,
+				696EA04017B8B28800497D91 /* Default-568h@2x.png in Resources */,
+				696EA04917B8B28800497D91 /* VIPMasterViewController.xib in Resources */,
+				696EA04C17B8B28800497D91 /* VIPDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696EA04F17B8B28800497D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696EA05E17B8B28800497D91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		696EA05017B8B28800497D91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		696EA02217B8B28800497D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696EA03617B8B28800497D91 /* main.m in Sources */,
+				696EA03A17B8B28800497D91 /* VIPAppDelegate.m in Sources */,
+				696EA04317B8B28800497D91 /* VIPMasterViewController.m in Sources */,
+				696EA04617B8B28800497D91 /* VIPDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		696EA04D17B8B28800497D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696EA06117B8B28800497D91 /* BrowseOverflowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		696EA05817B8B28800497D91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 696EA02517B8B28800497D91 /* BrowseOverflow */;
+			targetProxy = 696EA05717B8B28800497D91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		696EA03217B8B28800497D91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696EA03317B8B28800497D91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		696EA04717B8B28800497D91 /* VIPMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696EA04817B8B28800497D91 /* en */,
+			);
+			name = VIPMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		696EA04A17B8B28800497D91 /* VIPDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696EA04B17B8B28800497D91 /* en */,
+			);
+			name = VIPDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		696EA05C17B8B28800497D91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				696EA05D17B8B28800497D91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		696EA06217B8B28800497D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		696EA06317B8B28800497D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		696EA06517B8B28800497D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrowseOverflow/BrowseOverflow-Prefix.pch";
+				INFOPLIST_FILE = "BrowseOverflow/BrowseOverflow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		696EA06617B8B28800497D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrowseOverflow/BrowseOverflow-Prefix.pch";
+				INFOPLIST_FILE = "BrowseOverflow/BrowseOverflow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		696EA06817B8B28800497D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrowseOverflow.app/BrowseOverflow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrowseOverflow/BrowseOverflow-Prefix.pch";
+				INFOPLIST_FILE = "BrowseOverflowTests/BrowseOverflowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		696EA06917B8B28800497D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrowseOverflow.app/BrowseOverflow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrowseOverflow/BrowseOverflow-Prefix.pch";
+				INFOPLIST_FILE = "BrowseOverflowTests/BrowseOverflowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		696EA02117B8B28800497D91 /* Build configuration list for PBXProject "BrowseOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696EA06217B8B28800497D91 /* Debug */,
+				696EA06317B8B28800497D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		696EA06417B8B28800497D91 /* Build configuration list for PBXNativeTarget "BrowseOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696EA06517B8B28800497D91 /* Debug */,
+				696EA06617B8B28800497D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		696EA06717B8B28800497D91 /* Build configuration list for PBXNativeTarget "BrowseOverflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				696EA06817B8B28800497D91 /* Debug */,
+				696EA06917B8B28800497D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 696EA01E17B8B28800497D91 /* Project object */;
+}
