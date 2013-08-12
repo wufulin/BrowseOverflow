@@ -20,22 +20,20 @@
 		696EA04617B8B28800497D91 /* VIPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA04517B8B28800497D91 /* VIPDetailViewController.m */; };
 		696EA04917B8B28800497D91 /* VIPMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696EA04717B8B28800497D91 /* VIPMasterViewController.xib */; };
 		696EA04C17B8B28800497D91 /* VIPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 696EA04A17B8B28800497D91 /* VIPDetailViewController.xib */; };
-		696EA05417B8B28800497D91 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA05317B8B28800497D91 /* SenTestingKit.framework */; };
-		696EA05517B8B28800497D91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA02917B8B28800497D91 /* UIKit.framework */; };
-		696EA05617B8B28800497D91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA02B17B8B28800497D91 /* Foundation.framework */; };
-		696EA05E17B8B28800497D91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 696EA05C17B8B28800497D91 /* InfoPlist.strings */; };
-		696EA06117B8B28800497D91 /* BrowseOverflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA06017B8B28800497D91 /* BrowseOverflowTests.m */; };
+		696EA06F17B8B63000497D91 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA06E17B8B63000497D91 /* Topic.m */; };
+		696EA07717B8C74400497D91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA02917B8B28800497D91 /* UIKit.framework */; };
+		696EA07817B8C74400497D91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA02B17B8B28800497D91 /* Foundation.framework */; };
+		696EA07917B8C74400497D91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA02D17B8B28800497D91 /* CoreGraphics.framework */; };
+		696EA07F17B8C74400497D91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 696EA07D17B8C74400497D91 /* InfoPlist.strings */; };
+		696EA08117B8C74400497D91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA08017B8C74400497D91 /* main.m */; };
+		696EA08717B8C74400497D91 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 696EA08617B8C74400497D91 /* Default.png */; };
+		696EA08917B8C74400497D91 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696EA08817B8C74400497D91 /* Default@2x.png */; };
+		696EA08B17B8C74400497D91 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 696EA08A17B8C74400497D91 /* Default-568h@2x.png */; };
+		696EA09417B8C7CE00497D91 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA09317B8C7CE00497D91 /* QuartzCore.framework */; };
+		696EA0A017B8CCEB00497D91 /* libPods-GHUnitIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 696EA09F17B8CCEB00497D91 /* libPods-GHUnitIOS.a */; };
+		696EA0A317B8CDC900497D91 /* TopicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA0A217B8CDC900497D91 /* TopicTests.m */; };
+		696EA0A417B8CDF900497D91 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA06E17B8B63000497D91 /* Topic.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		696EA05717B8B28800497D91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 696EA01E17B8B28800497D91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 696EA02517B8B28800497D91;
-			remoteInfo = BrowseOverflow;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		696EA02617B8B28800497D91 /* BrowseOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowseOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,12 +55,23 @@
 		696EA04517B8B28800497D91 /* VIPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPDetailViewController.m; sourceTree = "<group>"; };
 		696EA04817B8B28800497D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VIPMasterViewController.xib; sourceTree = "<group>"; };
 		696EA04B17B8B28800497D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VIPDetailViewController.xib; sourceTree = "<group>"; };
-		696EA05217B8B28800497D91 /* BrowseOverflowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowseOverflowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		696EA05317B8B28800497D91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		696EA05B17B8B28800497D91 /* BrowseOverflowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrowseOverflowTests-Info.plist"; sourceTree = "<group>"; };
-		696EA05D17B8B28800497D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		696EA05F17B8B28800497D91 /* BrowseOverflowTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowseOverflowTests.h; sourceTree = "<group>"; };
-		696EA06017B8B28800497D91 /* BrowseOverflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowseOverflowTests.m; sourceTree = "<group>"; };
+		696EA06D17B8B63000497D91 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		696EA06E17B8B63000497D91 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
+		696EA07617B8C74400497D91 /* GHUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		696EA07C17B8C74400497D91 /* GHUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHUnitTests-Info.plist"; sourceTree = "<group>"; };
+		696EA07E17B8C74400497D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		696EA08017B8C74400497D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		696EA08217B8C74400497D91 /* GHUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHUnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		696EA08617B8C74400497D91 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		696EA08817B8C74400497D91 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		696EA08A17B8C74400497D91 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		696EA09317B8C7CE00497D91 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		696EA09D17B8CAE900497D91 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libPods.a; path = "Pods/build/Release-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		696EA09F17B8CCEB00497D91 /* libPods-GHUnitIOS.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-GHUnitIOS.a"; path = "Pods/build/Release-iphoneos/libPods-GHUnitIOS.a"; sourceTree = "<group>"; };
+		696EA0A117B8CDC900497D91 /* TopicTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTests.h; sourceTree = "<group>"; };
+		696EA0A217B8CDC900497D91 /* TopicTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTests.m; sourceTree = "<group>"; };
+		8937EA399252405F9C172ED2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,13 +85,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		696EA04E17B8B28800497D91 /* Frameworks */ = {
+		696EA07317B8C74400497D91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				696EA05417B8B28800497D91 /* SenTestingKit.framework in Frameworks */,
-				696EA05517B8B28800497D91 /* UIKit.framework in Frameworks */,
-				696EA05617B8B28800497D91 /* Foundation.framework in Frameworks */,
+				696EA0A017B8CCEB00497D91 /* libPods-GHUnitIOS.a in Frameworks */,
+				696EA09417B8C7CE00497D91 /* QuartzCore.framework in Frameworks */,
+				696EA07717B8C74400497D91 /* UIKit.framework in Frameworks */,
+				696EA07817B8C74400497D91 /* Foundation.framework in Frameworks */,
+				696EA07917B8C74400497D91 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,9 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				696EA02F17B8B28800497D91 /* BrowseOverflow */,
-				696EA05917B8B28800497D91 /* BrowseOverflowTests */,
+				696EA07A17B8C74400497D91 /* GHUnitTests */,
 				696EA02817B8B28800497D91 /* Frameworks */,
 				696EA02717B8B28800497D91 /* Products */,
+				8937EA399252405F9C172ED2 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				696EA02617B8B28800497D91 /* BrowseOverflow.app */,
-				696EA05217B8B28800497D91 /* BrowseOverflowTests.octest */,
+				696EA07617B8C74400497D91 /* GHUnitTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +123,9 @@
 		696EA02817B8B28800497D91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				696EA09F17B8CCEB00497D91 /* libPods-GHUnitIOS.a */,
+				696EA09D17B8CAE900497D91 /* libPods.a */,
+				696EA09317B8C7CE00497D91 /* QuartzCore.framework */,
 				696EA02917B8B28800497D91 /* UIKit.framework */,
 				696EA02B17B8B28800497D91 /* Foundation.framework */,
 				696EA02D17B8B28800497D91 /* CoreGraphics.framework */,
@@ -122,6 +137,7 @@
 		696EA02F17B8B28800497D91 /* BrowseOverflow */ = {
 			isa = PBXGroup;
 			children = (
+				696EA07117B8B63500497D91 /* Model */,
 				696EA03817B8B28800497D91 /* VIPAppDelegate.h */,
 				696EA03917B8B28800497D91 /* VIPAppDelegate.m */,
 				696EA04117B8B28800497D91 /* VIPMasterViewController.h */,
@@ -149,21 +165,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		696EA05917B8B28800497D91 /* BrowseOverflowTests */ = {
+		696EA07117B8B63500497D91 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				696EA05F17B8B28800497D91 /* BrowseOverflowTests.h */,
-				696EA06017B8B28800497D91 /* BrowseOverflowTests.m */,
-				696EA05A17B8B28800497D91 /* Supporting Files */,
+				696EA06D17B8B63000497D91 /* Topic.h */,
+				696EA06E17B8B63000497D91 /* Topic.m */,
 			);
-			path = BrowseOverflowTests;
+			name = Model;
 			sourceTree = "<group>";
 		};
-		696EA05A17B8B28800497D91 /* Supporting Files */ = {
+		696EA07A17B8C74400497D91 /* GHUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				696EA05B17B8B28800497D91 /* BrowseOverflowTests-Info.plist */,
-				696EA05C17B8B28800497D91 /* InfoPlist.strings */,
+				696EA07B17B8C74400497D91 /* Supporting Files */,
+				696EA0A117B8CDC900497D91 /* TopicTests.h */,
+				696EA0A217B8CDC900497D91 /* TopicTests.m */,
+			);
+			path = GHUnitTests;
+			sourceTree = "<group>";
+		};
+		696EA07B17B8C74400497D91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				696EA07C17B8C74400497D91 /* GHUnitTests-Info.plist */,
+				696EA07D17B8C74400497D91 /* InfoPlist.strings */,
+				696EA08017B8C74400497D91 /* main.m */,
+				696EA08217B8C74400497D91 /* GHUnitTests-Prefix.pch */,
+				696EA08617B8C74400497D91 /* Default.png */,
+				696EA08817B8C74400497D91 /* Default@2x.png */,
+				696EA08A17B8C74400497D91 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -175,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 696EA06417B8B28800497D91 /* Build configuration list for PBXNativeTarget "BrowseOverflow" */;
 			buildPhases = (
+				12D3415D42C94C1BA8EDC417 /* Check Pods Manifest.lock */,
 				696EA02217B8B28800497D91 /* Sources */,
 				696EA02317B8B28800497D91 /* Frameworks */,
 				696EA02417B8B28800497D91 /* Resources */,
+				FBDF24AC7EBD4DC9A0520ECD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,24 +220,22 @@
 			productReference = 696EA02617B8B28800497D91 /* BrowseOverflow.app */;
 			productType = "com.apple.product-type.application";
 		};
-		696EA05117B8B28800497D91 /* BrowseOverflowTests */ = {
+		696EA07517B8C74400497D91 /* GHUnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 696EA06717B8B28800497D91 /* Build configuration list for PBXNativeTarget "BrowseOverflowTests" */;
+			buildConfigurationList = 696EA08E17B8C74400497D91 /* Build configuration list for PBXNativeTarget "GHUnitTests" */;
 			buildPhases = (
-				696EA04D17B8B28800497D91 /* Sources */,
-				696EA04E17B8B28800497D91 /* Frameworks */,
-				696EA04F17B8B28800497D91 /* Resources */,
-				696EA05017B8B28800497D91 /* ShellScript */,
+				696EA07217B8C74400497D91 /* Sources */,
+				696EA07317B8C74400497D91 /* Frameworks */,
+				696EA07417B8C74400497D91 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				696EA05817B8B28800497D91 /* PBXTargetDependency */,
 			);
-			name = BrowseOverflowTests;
-			productName = BrowseOverflowTests;
-			productReference = 696EA05217B8B28800497D91 /* BrowseOverflowTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = GHUnitTests;
+			productName = GHUnitTests;
+			productReference = 696EA07617B8C74400497D91 /* GHUnitTests.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -230,7 +260,7 @@
 			projectRoot = "";
 			targets = (
 				696EA02517B8B28800497D91 /* BrowseOverflow */,
-				696EA05117B8B28800497D91 /* BrowseOverflowTests */,
+				696EA07517B8C74400497D91 /* GHUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,29 +279,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		696EA04F17B8B28800497D91 /* Resources */ = {
+		696EA07417B8C74400497D91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				696EA05E17B8B28800497D91 /* InfoPlist.strings in Resources */,
+				696EA07F17B8C74400497D91 /* InfoPlist.strings in Resources */,
+				696EA08717B8C74400497D91 /* Default.png in Resources */,
+				696EA08917B8C74400497D91 /* Default@2x.png in Resources */,
+				696EA08B17B8C74400497D91 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		696EA05017B8B28800497D91 /* ShellScript */ = {
+		12D3415D42C94C1BA8EDC417 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBDF24AC7EBD4DC9A0520ECD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -284,26 +334,21 @@
 				696EA03A17B8B28800497D91 /* VIPAppDelegate.m in Sources */,
 				696EA04317B8B28800497D91 /* VIPMasterViewController.m in Sources */,
 				696EA04617B8B28800497D91 /* VIPDetailViewController.m in Sources */,
+				696EA06F17B8B63000497D91 /* Topic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		696EA04D17B8B28800497D91 /* Sources */ = {
+		696EA07217B8C74400497D91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				696EA06117B8B28800497D91 /* BrowseOverflowTests.m in Sources */,
+				696EA0A417B8CDF900497D91 /* Topic.m in Sources */,
+				696EA08117B8C74400497D91 /* main.m in Sources */,
+				696EA0A317B8CDC900497D91 /* TopicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		696EA05817B8B28800497D91 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 696EA02517B8B28800497D91 /* BrowseOverflow */;
-			targetProxy = 696EA05717B8B28800497D91 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		696EA03217B8B28800497D91 /* InfoPlist.strings */ = {
@@ -330,10 +375,10 @@
 			name = VIPDetailViewController.xib;
 			sourceTree = "<group>";
 		};
-		696EA05C17B8B28800497D91 /* InfoPlist.strings */ = {
+		696EA07D17B8C74400497D91 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				696EA05D17B8B28800497D91 /* en */,
+				696EA07E17B8C74400497D91 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -399,6 +444,7 @@
 		};
 		696EA06517B8B28800497D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8937EA399252405F9C172ED2 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BrowseOverflow/BrowseOverflow-Prefix.pch";
@@ -410,6 +456,7 @@
 		};
 		696EA06617B8B28800497D91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8937EA399252405F9C172ED2 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BrowseOverflow/BrowseOverflow-Prefix.pch";
@@ -419,37 +466,33 @@
 			};
 			name = Release;
 		};
-		696EA06817B8B28800497D91 /* Debug */ = {
+		696EA08C17B8C74400497D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrowseOverflow.app/BrowseOverflow";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BrowseOverflow/BrowseOverflow-Prefix.pch";
-				INFOPLIST_FILE = "BrowseOverflowTests/BrowseOverflowTests-Info.plist";
+				GCC_PREFIX_HEADER = "GHUnitTests/GHUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitTests/GHUnitTests-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		696EA06917B8B28800497D91 /* Release */ = {
+		696EA08D17B8C74400497D91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrowseOverflow.app/BrowseOverflow";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BrowseOverflow/BrowseOverflow-Prefix.pch";
-				INFOPLIST_FILE = "BrowseOverflowTests/BrowseOverflowTests-Info.plist";
+				GCC_PREFIX_HEADER = "GHUnitTests/GHUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitTests/GHUnitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -472,12 +515,13 @@
 				696EA06617B8B28800497D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		696EA06717B8B28800497D91 /* Build configuration list for PBXNativeTarget "BrowseOverflowTests" */ = {
+		696EA08E17B8C74400497D91 /* Build configuration list for PBXNativeTarget "GHUnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				696EA06817B8B28800497D91 /* Debug */,
-				696EA06917B8B28800497D91 /* Release */,
+				696EA08C17B8C74400497D91 /* Debug */,
+				696EA08D17B8C74400497D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
