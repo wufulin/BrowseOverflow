@@ -10,7 +10,7 @@
 
 @class Topic;
 
-@interface TopicTests : GHTestCase{
+@interface TopicTests : GHTestCase {
     Topic *topic;
 }
 
